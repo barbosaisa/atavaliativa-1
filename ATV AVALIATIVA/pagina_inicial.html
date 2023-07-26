@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <div class="titulo ">
+          <h1>Calcule seu indice de massa muscular</h1>
+        </div>
+
+      </ul>
+    </nav>
+  </header>
+  <br>
+  <br>
+  <div class="container">
+    <h1>O que são doenças hipocinéticas</h1>
+    <p>Doenças Hipocinéticas são classificadas como toda alteração que atinge a saúde humana por meio de hábitos inapropriados, principalmente ao que tange o sedentarismo, má alimentação, falta de exercícios físicos periódicos e o não respeito ao dormir a quantidade de horas necessárias.</p>
+  </div>
+
+  <br>
+  <br>
+  <form id="imcCalculator">
+    <label for="weight">Peso (kg):</label>
+    <input type="number" id="weight" required>
+
+    <label for="height">Altura (metros):</label>
+    <input type="number" id="height" required>
+
+    <button type="button" onclick="calculateIMC()">Calcular IMC</button>
+  </form>
+  <br>
+  <div id="result">
+    <p></p>
+    <img id="resultImage" src="" alt="IMC Result Image">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
